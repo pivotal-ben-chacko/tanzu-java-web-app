@@ -49,6 +49,14 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-bindings -->
+		<dependency>
+    		<groupId>org.springframework.cloud</groupId>
+    		<artifactId>spring-cloud-bindings</artifactId>
+    		<version>1.8.1</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
