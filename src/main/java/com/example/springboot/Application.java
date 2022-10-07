@@ -20,7 +20,7 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 
     List<Binding> bindings = new Bindings().filterBindings("postgresql");
-	bindings.get(0).getSecret().values();
+	System.out.println("Binding Info: " + bindings.get(0).getSecret().values());
 	}
 
 	@Bean
