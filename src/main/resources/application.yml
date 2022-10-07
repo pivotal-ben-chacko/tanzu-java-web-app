@@ -1,6 +1,18 @@
 spring:
   application:
     name: tanzu-java-web-app
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: {password}
+    url: {jdbc-url}
+    username: {username}
+org:
+  springframework:
+    cloud:
+      bindings:
+        boot:
+          postgresql:
+            enable: true
 management:
   endpoints:
     web:
