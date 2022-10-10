@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: tanzu-java-web-app
+org:
+  springframework:
+    cloud:
+      bindings:
+        boot:
+          postgresql:
+            enable: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
+  endpoint:
+    health:
+      show-details: always
